@@ -1,0 +1,20 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "マクロ",
+      "functionName": "myFunction"
+    }, {
+      "menuName": "dbManager",
+      "functionName": "dbManager",
+      "defaultShortcut": "Ctrl+Alt+Shift+1"
+    }, {
+      "menuName": "onEdit",
+      "functionName": "onEdit"
+    }]
+  }
+}
